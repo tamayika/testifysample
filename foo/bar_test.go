@@ -17,8 +17,8 @@ func (suite *BarTestSuite) SetupSuite() {
 	time.Sleep(1 * time.Minute)
 }
 
-func (suite *BarTestSuite) TeardownSuite() {
-	fmt.Println("Bar TeardownSuite")
+func (suite *BarTestSuite) TearDownSuite() {
+	fmt.Println("Bar TearDownSuite")
 	time.Sleep(1 * time.Minute)
 }
 
@@ -27,8 +27,8 @@ func (suite *BarTestSuite) SetupTest() {
 	time.Sleep(1 * time.Minute)
 }
 
-func (suite *BarTestSuite) TeardownTest() {
-	fmt.Println("Bar TeardownTest")
+func (suite *BarTestSuite) TearDownTest() {
+	fmt.Println("Bar TearDownTest")
 	time.Sleep(1 * time.Minute)
 }
 

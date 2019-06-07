@@ -15,16 +15,16 @@ func (suite *FooTestSuite) SetupSuite() {
 	fmt.Println("Foo SetupSuite")
 }
 
-func (suite *FooTestSuite) TeardownSuite() {
-	fmt.Println("Foo TeardownSuite")
+func (suite *FooTestSuite) TearDownSuite() {
+	fmt.Println("Foo TearDownSuite")
 }
 
 func (suite *FooTestSuite) SetupTest() {
 	fmt.Println("Foo SetupTest")
 }
 
-func (suite *FooTestSuite) TeardownTest() {
-	fmt.Println("Foo TeardownTest")
+func (suite *FooTestSuite) TearDownTest() {
+	fmt.Println("Foo TearDownTest")
 }
 
 func (suite *FooTestSuite) TestFoo() {
